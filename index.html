@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="contener">
+    <div class="calculeter">
+        <form>
+            <div class="display">
+                <input type="text" id="result" name="display">
+            </div>
+            <div class="btn" >
+                <input type="button" class="btn1" value="AC" onclick="delet()">
+                <input type="button" class="btn2" value=" DE" onclick="deleteResult()">
+                <input type="button" value="%" onclick="calculeter('%')">
+                <input type="button" class="oparetor" value="/" onclick="calculeter('/')">
+            </div>
+            <div class="btn" >
+                <input type="button" value="1" onclick="calculeter('1')">
+                <input type="button" value="2" onclick="calculeter('2')">
+                <input type="button" value="3" onclick="calculeter('3')">
+                <input type="button" class="oparetor" value="*" onclick="calculeter('*')">
+            </div>
+            <div class="btn" >
+                <input type="button" value="4" onclick="calculeter('4')">
+                <input type="button" value="5" onclick="calculeter('5')">
+                <input type="button" value="6" onclick="calculeter('6')"> 
+                <input type="button" class="oparetor" value="-" onclick="calculeter('-')">
+            </div>
+            <div class="btn" >
+                <input type="button" value="7" onclick="calculeter('7')">
+                <input type="button" value="8" onclick="calculeter('8')">
+                <input type="button" value="9" onclick="calculeter('9')">
+                <input type="button" class="oparetor" value="+" onclick="calculeter('+')">
+            </div>
+            <div class="btn" >
+                <input type="button" value="0" onclick="calculeter('0')">
+                <input type="button" value="." onclick="calculeter('.')">
+                <input type="button" class="answer" value="=" onclick="answers()">
+            </div>
+        </form>
+    </div>
+</div>
+<script src="/index.js"></script>
+</body>
+</html>
